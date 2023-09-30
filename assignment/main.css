@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans&family=Merriweather:wght@300;400&family=Playfair+Display&family=Volkhov&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+#nav{
+    position: sticky;
+    top:0;
+    left:0%;
+    z-index:100;
+    padding: .1rem 1rem;
+    background: white;
+ 
+    
+}
+
+#navbarSupportedContent a{
+    
+    color: 0ccbff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #0ccbff;
+}
+
+section{
+    width: 100%;
+   
+    min-height: 100vh;
+    display: flex;
+    
+    
+
+}
+
+#home {
+    background-image: url(home.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+
+#home h1{
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'DM Serif Display', sans-serif;
+
+    
+}
+#home h3{
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+#home p{
+    color: darkgrey;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+#home button{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    border-radius: 10px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+#home button:hover{
+    
+        background-color: black;
+
+
+}
+
+#home3{
+  background-image: url(product.jpg);
+  
+
+}
+#btn1 {
+    background-color: #0ccbff;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 120px;
+}
+#btn2 {
+    background-color: #0ccbff;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 200px;
+}
+#btn3 {
+    background-color: #0ccbff;
+    padding-left:5px ;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    width: 280px;
+}
+
+
+#home div{
+    padding-left: 15px;
+    padding-top: 10px;
+}
+#home a{
+    color: white;
+}
+
+#about {
+    background: url(about.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+}
+#about h1{
+    padding-top: 150px;
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'DM Serif Display', sans-serif;
+
+    
+}
+#about h3{
+    text-align: left;
+    padding-left: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+#about p{
+    font-size: 20px;
+    color: darkgrey;
+    text-align: justify;
+    padding-left: 40px;
+    padding-right: 700px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    
+}
+
+#about div{
+    padding-left:200px ;
+    
+    padding-top: 30px;
+    padding-bottom: 20px;
+    size: 20px;
+}
+#about .fa{
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+}
+#about .fa:hover {
+    opacity: 0.7;
+  }
+#about img{
+    size: 10px;
+}

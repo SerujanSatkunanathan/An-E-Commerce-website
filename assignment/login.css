@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@1&family=Josefin+Sans&family=Merriweather:wght@300;400&family=Playfair+Display&family=Volkhov&display=swap');
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+    
+}
+
+#nav{
+    position: sticky;
+    top:0;
+    left:0%;
+    z-index:100;
+    padding: .1rem 1rem;
+    background: white;
+    
+}
+
+#navbarSupportedContent a{
+    color: 0ccbff;
+    border-bottom: 2px solid transparent;
+}
+
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #0ccbff;
+}
+
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    
+    
+
+}
+
+#reg {
+    background-image: url(login.jpg);
+    background-size: cover;
+    background-position: center;
+    flex-direction: column;
+    
+}
+#reg1 {
+    padding-left: 100px;
+    padding-top: 100px;
+}
+#reg2 {
+    padding-left: 100px;
+    padding-top: 30px;
+    
+}
+
+  .box{
+    color: black;
+    position: absolute;
+}
+
+
+.user{
+    width: 100px;
+    height: 100px;
+    
+    
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+    color: black;
+    font-family: 'DM Serif Display', sans-serif;
+}
+
+p{
+    color:black;
+    
+    font-weight: bold;
+    size: 20px;
+}
+
+input{
+    width: 300px;
+    margin-bottom: 10px;
+}
+
+ input[type="text"], input[type="password"] ,input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #673ab7;
+    font-size: 20px;
+}
+
+input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #0ccbff;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+
+}
+
+
+input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: black;
+}
+
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 20px;
+    color: #069818;
+}
+
+
+a:hover
+{
+    color: black;
+}

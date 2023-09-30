@@ -1,0 +1,39 @@
+[
+    {
+        "id": 1,
+        "name": "Pedigree Chicken & Vegetables 3Kg - Adult Dog",
+        "price": 5390,
+        "image": "food1.webp"
+    },
+    {
+        "id": 2,
+        "name": "Royal Canin Anallergenic Dry Dog Food 3Kg",
+        "price": 175000,
+        "image": "food2.webp"
+    },
+    {
+        "id": 3,
+        "name": "Reflex Premium Adult Dog Food  – Beef 15Kg",
+        "price": 28000,
+        "image": "food3.webp"
+    }
+    ,
+    {
+        "id": 4,
+        "name": "Happy Dog Supreme Young - Junior Original",
+        "price": 2800,
+        "image": "food4.webp"
+    },
+    {
+        "id": 5,
+        "name": "Pedigree PRO Active Adult 10Kg",
+        "price": 19000,
+        "image": "food5.webp"
+    },
+    {
+        "id": 6,
+        "name": "Royal Canin Maxi Starter 4Kg - Mother and Puppy",
+        "price": 18500,
+        "image": "food6.webp"
+    }
+]
